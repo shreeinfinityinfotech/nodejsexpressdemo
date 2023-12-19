@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.send("hello about us");
+  res.send("hello about us..");
 });
 
 const start = async () => {
